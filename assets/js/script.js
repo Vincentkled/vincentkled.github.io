@@ -101,6 +101,6 @@ hilang1.addEventListener('click', () => {
 })
 
 hilang2.addEventListener('click', () => {
-  window.open(`line://msg/text/${encodeURIComponent(textWa)}`);
-})
+  window.open(`https://wa.me/${nomorWa}?text=${encodeURIComponent(textWa)}`);
+});
 
