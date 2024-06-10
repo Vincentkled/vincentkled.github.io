@@ -8,8 +8,13 @@
   <title>Document</title>
 </head>
 <body>
-  <audio class="audio" src="/assets/audio/Sezairi - It's You.mp3" autoplay type="audio"
-    loop=""></audio>
+    <audio class="audio" src="/assets/audio/Sezairi - It's You.mp3" autoplay type="audio" loop=""></audio>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var audio = document.querySelector('.audio');
+      audio.volume = 0.1;
+    });
+     </script>
   <div class="body">
     <div id="waktu">
       <h1></h1>
